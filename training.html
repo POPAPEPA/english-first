@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn English - Тренировки</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="training.css">
+</head>
+<body class="training-page">
+    <header>
+        <h1>Learn English</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="dictionary.html">Словарь</a></li>
+                <li><a href="games.html">Игры</a></li>
+                <li class="active"><a href="training.html">Тренировки</a></li>
+                <li><a href="#">Еще...</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="training-intro">
+            <h2>Грамматические тренировки</h2>
+            <p>Улучшайте свои знания английской грамматики с помощью интерактивных упражнений</p>
+        </section>
+
+        <div class="training-container">
+            <div class="training-tabs">
+                <button class="tab-btn easy active" data-tab="easy">Легкий уровень</button>
+                <button class="tab-btn medium" data-tab="medium">Средний уровень</button>
+                <button class="tab-btn hard" data-tab="hard">Сложный уровень</button>
+            </div>
+            <div class="tab-content active" id="easy-tab">
+                <h3>Темы легкого уровня</h3>
+                <div class="topic-list">
+                    <div class="topic-item easy" data-topic="present-simple">Present simple</div>
+                    <div class="topic-item easy" data-topic="past-simple">Past simple</div>
+                    <div class="topic-item easy" data-topic="future-simple">Future simple</div>
+                    <div class="topic-item easy" data-topic="present-continuous">Present continuous</div>
+                    <div class="topic-item easy" data-topic="present-simple-passive">Present simple passive</div>
+                    <div class="topic-item easy" data-topic="future-simple-passive">Future simple passive</div>
+                    <div class="topic-item easy" data-topic="ordinal-numerals">Ordinal numerals</div>
+                    <div class="topic-item easy" data-topic="degree-of-adjectives">Degree of adjectives</div>
+                    <div class="topic-item easy" data-topic="general-questions">General questions</div>
+                    <div class="topic-item easy" data-topic="there-is-are">There is, there are</div>
+                    <div class="topic-item easy" data-topic="used-to">Used to</div>
+                    <div class="topic-item easy" data-topic="going-to">To be going to</div>
+                </div>
+                
+                <div class="exercises-container" id="easy-exercises">
+                </div>
+            </div>
+
+            <div class="tab-content" id="medium-tab">
+                <h3>Темы среднего уровня</h3>
+                <div class="topic-list">
+                    <div class="topic-item medium" data-topic="past-continuous">Past continuous</div>
+                    <div class="topic-item medium" data-topic="future-continuous">Future continuous</div>
+                    <div class="topic-item medium" data-topic="present-perfect">Present perfect</div>
+                    <div class="topic-item medium" data-topic="past-perfect">Past perfect</div>
+                    <div class="topic-item medium" data-topic="future-perfect">Future perfect</div>
+                    <div class="topic-item medium" data-topic="present-perfect-continuous">Present perfect continuous</div>
+                    <div class="topic-item medium" data-topic="past-perfect-continuous">Past perfect continuous</div>
+                    <div class="topic-item medium" data-topic="future-in-past">Future in the past</div>
+                    <div class="topic-item medium" data-topic="past-simple-passive">Past simple passive</div>
+                    <div class="topic-item medium" data-topic="present-perfect-passive">Present perfect passive</div>
+                    <div class="topic-item medium" data-topic="irregular-verbs">Irregular verbs</div>
+                    <div class="topic-item medium" data-topic="order-of-adjectives">Order of adjectives</div>
+                    <div class="topic-item medium" data-topic="wh-questions">Wh-questions</div>
+                    <div class="topic-item medium" data-topic="modal-verbs">Modal verbs</div>
+                </div>
+                
+                <div class="exercises-container" id="medium-exercises">
+                </div>
+            </div>
+            <div class="tab-content" id="hard-tab">
+                <h3>Темы сложного уровня</h3>
+                <div class="topic-list">
+                    <div class="topic-item hard" data-topic="future-perfect-continuous">Future perfect continuous</div>
+                    <div class="topic-item hard" data-topic="present-continuous-passive">Present continuous passive</div>
+                    <div class="topic-item hard" data-topic="past-continuous-passive">Past continuous passive</div>
+                    <div class="topic-item hard" data-topic="past-perfect-passive">Past perfect passive</div>
+                    <div class="topic-item hard" data-topic="future-perfect-passive">Future perfect passive</div>
+                    <div class="topic-item hard" data-topic="conditional-clauses">Conditional clauses</div>
+                    <div class="topic-item hard" data-topic="sequence-of-tenses">Sequence of tenses</div>
+                    <div class="topic-item hard" data-topic="indirect-speech">Indirect speech</div>
+                    <div class="topic-item hard" data-topic="phrasal-verbs">Phrasal verbs</div>
+                    <div class="topic-item hard" data-topic="all-grammar">All grammar</div>
+                </div>
+                
+                <div class="exercises-container" id="hard-exercises">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Learn English</p>
+    </footer>
+
+    <script src="training.js"></script>
+</body>
